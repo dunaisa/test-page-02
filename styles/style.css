@@ -1,0 +1,151 @@
+.page {
+  max-width: 690px;
+  margin: 0;
+  padding: 22px 40px 80px 40px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #1A1A1A;
+  font-family: "MuseoSansCyrl", Arial, sans-serif;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.list__link {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.page__heading {
+  display: flex;
+  align-items: center;
+  margin: 0 0 16px;
+}
+
+.page__title {
+  font-family: "MuseoSansCyrl", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 700;
+  color: #1A1A1A;
+  padding: 0;
+  margin: 0;
+}
+
+.page__title-img {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  margin-left: 12px;
+}
+
+.page__main-text {
+  font-family: "MuseoSansCyrl", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #1A1A1A;
+  padding: 0;
+  margin: 0 0 40px;
+}
+
+.page__links-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.page__links-text {
+  font-family: "MuseoSansCyrl", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 15.6px;
+  font-weight: 600;
+  color: #1A1A1A;
+  padding: 0;
+  margin: 0 0 16px;
+}
+
+.list__item_chat {
+  background: #36BA5F;
+  font-family: "MuseoSansCyrl", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 15.6px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 224px;
+  height: 48px;
+}
+
+.list__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-family: "MuseoSansCyrl", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 15.6px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.list__icon {
+  width: 16px;
+  height: 16px;
+  object-fit: cover;
+}
+
+.list__icon_chat {
+  margin-right: 8px;
+}
+
+.list__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.list__item_call {
+  background: #F9F9F9;
+  width: 48px;
+  height: 48px;
+}
+
+.list__item_mail {
+  background: #F9F9F9;
+  width: 48px;
+  height: 48px;
+}
+
+.list__icon_mail {
+  width: 16px;
+  height: 12px;
+}
+
+@media screen and (max-width: 425px) {
+  .page {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .list__item_chat {
+    width: 180px;
+    height: 38px;
+  }
+
+  .list__item_call {
+    width: 38px;
+    height: 38px;
+  }
+  .list__item_mail {
+    width: 38px;
+    height: 38px;
+  }
+}
